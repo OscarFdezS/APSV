@@ -30,7 +30,7 @@ jobs:
 
     - name: Build project with Maven
 
-      run: mvn -B compile --file pom.xml
+      run: mvn -B compile --file TrasnportationOrderServer0/pom.xml
 
   verify:
 
@@ -54,6 +54,6 @@ jobs:
 
     - name: Run all defined tests and generate war with Maven
 
-      run: mvn -B verify --file pom.xml
+      run: mvn -B verify --file TrasnportationOrderServer0/pom.xml
 
     - run: ls ${GITHUB_WORKSPACE}/target/*.jar
