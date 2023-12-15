@@ -42,4 +42,4 @@ jobs:
           with:
             context: .
             push: true
-            tags: ghcr.io/OscarFdezS/tos:latest
+            tags: ghcr.io/OscarFdezS/APSV/tos:latest
